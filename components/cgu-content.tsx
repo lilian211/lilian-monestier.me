@@ -80,7 +80,7 @@ export default function TermsOfService() {
         <p className="text-gray-600 mb-4">
           Pour toute question ou réclamation concernant ces CGU, vous pouvez me
           contacter à l&apos;adresse suivante :{" "}
-          <span className="font-medium text-gray-800">hugoguttr@gmail.com</span>
+          <span className="font-medium text-gray-800">lilianmonestier39@gmail.com</span>
           .
         </p>
 

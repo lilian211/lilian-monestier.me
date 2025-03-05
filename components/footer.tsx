@@ -22,9 +22,8 @@ const footerLinks = {
     { name: "CGU", href: "/cgu" },
   ],
   social: [
-    { name: "GitHub", href: "https://github.com/Logipek" },
-    { name: "LinkedIn", href: "https://linkedin.com/in/hugo-damion" },
-    { name: "Twitter", href: "https://twitter.com/hugo-damion" },
+    { name: "GitHub", href: "https://github.com/lilian211" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/lilian-monestier-70a4b4296/" },
   ],
 };
 
@@ -35,11 +34,11 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="text-xl font-bold gradient-text">
-              Hugo.
+              Lilian.
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
-              Développeur Full Stack passionné par la création
-              d&apos;expériences web innovantes.
+              Développeur passionné par la création
+              d&apos;expériences innovantes.
             </p>
           </div>
           <div>
@@ -90,7 +89,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t border-primary/10 flex items-center justify-between">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Hugo Damion. Tous droits réservés.
+            © {new Date().getFullYear()} Lilian Monestier. Tous droits réservés.
           </p>
         </div>
       </div>

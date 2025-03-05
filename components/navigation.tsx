@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Code2, Home, Layers, Send, Menu, X } from "lucide-react";
+import { Code2, Home, Layers, Send, Menu, X, Layers2 } from "lucide-react";
 import DiscordNowPlaying from "./discord-now-playing";
 import { ThemeSwitcher } from "./theme-switcher";
 import { Button } from "./ui/button";
@@ -18,7 +18,7 @@ export default function Navigation() {
   const navigation = [
     { name: "Accueil", href: "/", icon: Home },
     { name: "Projets", href: "/projects", icon: Code2 },
-    { name: "Stack", href: "/stack", icon: Layers },
+    { name: "Compétences", href: "/stack", icon: Layers },
     { name: "Contact", href: "/contact", icon: Send },
   ];
 
@@ -47,7 +47,7 @@ export default function Navigation() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-xl font-bold gradient-text">
-            Hugo.
+            Lilian.
           </Link>
 
           <div className="hidden sm:block">

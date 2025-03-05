@@ -10,9 +10,9 @@ import { useSmooth, useScrollRestoration } from "@/hooks/use-scroll";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hugo. | Developpeur Full-Stack",
+  title: "Lilian. | Developpeur",
   description:
-    "Développeur Full Stack passionné par la création d'expériences web innovantes.",
+    "Développeur passionné par la création d'expériences innovantes.",
 };
 
 export default function RootLayout({

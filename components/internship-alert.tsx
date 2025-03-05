@@ -25,7 +25,7 @@ export default function InternshipAlert({ className }: InternshipAlertProps) {
         <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
       </span>
       <Link href="/contact" className="text-primary hover:underline text-sm">
-        Recherche actuellement une alternance
+        Recherche actuellement un stage
         <ArrowRight className="inline-block ml-1 h-3 w-3" />
       </Link>
     </motion.div>

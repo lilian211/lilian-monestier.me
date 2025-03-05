@@ -9,6 +9,7 @@ import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 import GithubRepos from "@/components/github-repos"
 import InternshipAlert from "@/components/internship-alert"
+import Image from "next/image"
 
 export default function HomeContent() {
   const { scrollY } = useScroll()
@@ -64,16 +65,16 @@ export default function HomeContent() {
               variants={itemVariants}
               className="gradient-text text-5xl font-bold tracking-tight sm:text-7xl"
             >
-              Hugo Damion
+              Lilian Monestier
               <br />
-              Developpeur FullStack
+              Developpeur
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
               className="mt-6 text-lg leading-8 text-muted-foreground"
             >
-              Créons ensemble des expériences web innovantes et performantes
+              Créons ensemble des expériences innovantes et performantes
             </motion.p>
 
             <motion.div
@@ -93,6 +94,20 @@ export default function HomeContent() {
               </Link>
             </motion.div>
           </motion.div>
+
+          {/* Nouveau bloc pour la photo */}
+<motion.div
+  variants={itemVariants}
+  className="mt-8 flex justify-center"
+>
+  <Image
+    src="/images/moi.jpg"
+    alt="Photo de Lilian Monestier"
+    width={200}
+    height={200}
+    className="rounded-full border-2 border-primary shadow-lg object-cover"
+  />
+</motion.div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-b from-transparent via-background/50 to-background pointer-events-none" />
       </div>

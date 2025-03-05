@@ -16,7 +16,7 @@ interface Repository {
 }
 
 export default function GithubRepos() {
-  const username = 'Logipek' // Nom d'utilisateur GitHub
+  const username = 'lilian211' // Nom d'utilisateur GitHub
   const [repos, setRepos] = useState<Repository[]>([])
   const [loading, setLoading] = useState(true)
 

@@ -31,19 +31,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "hugoguttr@gmail.com",
+    value: "lilianmonestier39@gmail.com",
     description: "Pour toute demande de projet ou collaboration",
   },
   {
     icon: Phone,
     title: "Téléphone",
-    value: "+33 6 52 57 83 07",
+    value: "+33 7 49 28 30 08",
     description: "Disponible en semaine de 9h à 18h",
   },
   {
     icon: MapPin,
     title: "Localisation",
-    value: "Paris, France",
+    value: "Toulouse, France",
     description: "Disponible pour des projets à distance",
   },
 ];
@@ -51,18 +51,13 @@ const contactInfo = [
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/Logipek",
+    href: "https://github.com/lilian211",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/hugo-damion",
+    href: "https://www.linkedin.com/in/lilian-monestier-70a4b4296/",
     icon: Linkedin,
-  },
-  {
-    name: "Twitter",
-    href: "https://twitter.com/hugodamion",
-    icon: Twitter,
   },
 ];
 

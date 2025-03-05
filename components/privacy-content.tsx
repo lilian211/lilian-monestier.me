@@ -97,7 +97,7 @@ export default function PrivacyPolicy() {
         </ul>
         <p className="text-gray-600 mb-4">
           Pour exercer ces droits, veuillez nous contacter à l’adresse suivante
-          : <span className="font-medium">hugoguttr@gmail.com</span>.
+          : <span className="font-medium">lilianmonestier39@gmail.com</span>.
         </p>
 
         <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-4">
@@ -114,7 +114,7 @@ export default function PrivacyPolicy() {
         <p className="text-gray-600 mb-4">
           Pour toute question relative à cette politique de confidentialité,
           vous pouvez nous contacter à l’adresse suivante :{" "}
-          <span className="font-medium">hugoguttr@gmail.com</span>.
+          <span className="font-medium">lilianmonestier39@gmail.com</span>.
         </p>
 
         <p className="text-gray-600 text-sm mt-8">

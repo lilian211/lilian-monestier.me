@@ -17,13 +17,13 @@ export default function LegalNotice() {
           1. Éditeur du site
         </h2>
         <p className="text-gray-600 mb-4">
-          Nom : <span className="font-medium">Damion</span>
+          Nom : <span className="font-medium">Monestier</span>
           <br />
-          Adresse : <span className="font-medium">Orléans / France</span>
+          Adresse : <span className="font-medium">France</span>
           <br />
-          Email : <span className="font-medium">hugoguttr@gmail.com</span>
+          Email : <span className="font-medium">lilianmonestier39@gmail.com</span>
           <br />
-          Téléphone : <span className="font-medium">0652578307</span>
+          Téléphone : <span className="font-medium">0749283008</span>
         </p>
 
         <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-4">
@@ -89,7 +89,7 @@ export default function LegalNotice() {
         <p className="text-gray-600 mb-4">
           Pour toute question concernant ces mentions légales, vous pouvez
           contacter l’éditeur via email à l’adresse suivante :{" "}
-          <span className="font-medium">hugoguttr@gmail.com</span>.
+          <span className="font-medium">lilianmonestier39@gmail.com</span>.
         </p>
 
         <p className="text-gray-600 text-sm mt-8">

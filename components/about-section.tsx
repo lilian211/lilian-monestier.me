@@ -17,7 +17,7 @@ const features = [
   {
     title: "Expertise technique",
     description:
-      "Maîtrise des technologies modernes du web pour concevoir des solutions innovantes et performantes.",
+      "Maîtrise des technologies modernes pour concevoir des solutions innovantes et performantes.",
     icon: Code2,
     className: "md:col-span-2 md:row-span-1",
     gradient: "from-blue-500/20 to-purple-500/20",
@@ -33,7 +33,7 @@ const features = [
   {
     title: "Solutions personnalisées",
     description:
-      "Conception d'applications web adaptées à vos besoins spécifiques et à votre vision.",
+      "Conception d'applications adaptées à vos besoins spécifiques et à votre vision.",
     icon: Target,
     className: "md:col-span-1 md:row-span-1",
     gradient: "from-pink-500/20 to-red-500/20",
@@ -57,7 +57,7 @@ const features = [
   {
     title: "Innovation continue",
     description:
-      "Veille technologique permanente pour appliquer les meilleures pratiques du développement web et rester à l'avant-garde de l'innovation. Contribution active à la communauté open source et diffusion des connaissances.",
+      "Veille technologique permanente pour appliquer les meilleures pratiques du développement et rester à l'avant-garde de l'innovation.",
     icon: Rocket,
     className: "md:col-span-4",
     gradient: "from-cyan-500/20 to-blue-500/20",
@@ -104,8 +104,8 @@ export default function AboutSection() {
             À propos de moi
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Développeur passionné avec plus de 5 ans d&apos;expérience dans la
-            création d&apos;applications web modernes et performantes. Je
+            Développeur passionné dans la
+            création d&apos;applications modernes et performantes. Je
             m&apos;efforce constamment d&apos;améliorer mes compétences pour
             offrir les meilleures solutions à mes clients.
           </p>
@@ -153,11 +153,10 @@ export default function AboutSection() {
           className="mt-16 text-center"
         >
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Mon objectif est de créer des expériences web exceptionnelles qui
+            Mon objectif est de créer des expériences exceptionnelles qui
             combinent design innovant, performance technique et facilité
             d&apos;utilisation. Chaque projet est une nouvelle opportunité
-            dapprendre et de repousser les limites de ce qui est possible sur le
-            web.
+            dapprendre et de repousser les limites de ce qui est possible.
           </p>
         </motion.div>
       </div>
