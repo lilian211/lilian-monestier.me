@@ -26,6 +26,10 @@ Bienvenue sur mon portfolio ! Ce site présente mes compétences, mes projets et
 
 ---
 
+## Comment visiter le site ?
+Le site est hébergé sur GitHub Pages. Vous pouvez le visiter [ici](https://lilian211.github.io/lilian-monestier.me/).
+
+
 ## 📜 Licence 
 
 Ce projet est sous licence Apache 2.0. Vous êtes libre de l'utiliser, de le modifier et de le partager, tant que vous respectez les termes de la licence et de mettre l'auteur du Repos (Logipek).
